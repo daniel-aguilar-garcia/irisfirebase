@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="iris-firebase.ZPM">
+    <Module>
+      <Name>iris-firebase</Name>
+      <Version>1.1.1</Version>
+      <Packaging>module</Packaging>
+      <SourcesRoot>src</SourcesRoot>
+      <Resource Name="Firebase.PKG"/>
+      <Dependencies>
+        <ModuleReference>
+          <Name>swagger-ui</Name>
+          <Version>1.*.*</Version>
+        </ModuleReference>
+      </Dependencies>
+    </Module>
+    
+  </Document>
+</Export>
