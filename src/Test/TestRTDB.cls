@@ -3,7 +3,7 @@ Class Test.TestRTDB Extends %RegisteredObject
 
 ClassMethod init()
 {
-
+ 
     Do ##class(Firebase.RTDB).ConfigApp("appNotas","https://irisfirebaseexample-default-rtdb.firebaseio.com/","irisfirebaseexample.json")
 }
 

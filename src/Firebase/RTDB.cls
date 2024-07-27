@@ -3,6 +3,7 @@ Class Firebase.RTDB Extends %RegisteredObject
 
 ClassMethod ConfigApp(appName As %String, url As %String, credentialFile As %String)
 {
+    
     Set ^Firebase(appName,"url")=url
     Set ^Firebase(appName,"credentialFile")=credentialFile
 }
